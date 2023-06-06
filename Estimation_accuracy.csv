@@ -1,0 +1,14 @@
+﻿Model,Transformer (Big),Evolved Transformer Medium,Transformer (Big),Evolved Transformer Medium,Gshard-600B,Switch-Transformer,GPT-3
+Datacenter,Google Cloud,Google Cloud,Google Cloud,Google Cloud,Google Cloud,Google Cloud,Microsoft Azure
+Gamma,429,478,478,478,201,403,429
+PUE,1.59,1.11,1.11,1.11,1.09,1.1,1.1
+Processor,P100,P100,TPU v2,TPU v2,TPU v3,TPU v3,V100
+TDP_WATTS,300,300,280,280,450,450,300
+chip_num,8,8,8,8,1024,1024,10000
+training_time,84,76.8,19.44,14.88,74.4,648,355.2
+Energy(KWh),316,185,40,30,24100,179000,1287000
+CO2(tonnes),0.1357,0.0883,0.0189,0.0143,4.8,72.2,552.1
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
