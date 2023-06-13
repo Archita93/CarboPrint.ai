@@ -1,0 +1,3 @@
+[submodule "website-repo"]
+	path = website-repo
+	url = git@github.com:Megan-Andrews/carbon-footprint-ai.git
