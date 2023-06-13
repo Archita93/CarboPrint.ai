@@ -1,0 +1,5 @@
+Model,Datacenter,Gamma,PUE,Processor,TDP_WATTS,chip_num,training_time,Energy(KWh),CO2(tonnes),CO2_Estimates
+Transformer (Big),Google Cloud,429.0,1.59,P100,300.0,8.0,84.0,316,0.1357,0.137513376
+Evolved Transformer (Medium),Google Cloud,478.0,1.11,P100,300.0,8.0,76.8,185,0.0883,0.0977965056
+Transformer.v2 (Big),Google Cloud,478.0,1.11,TPU v2,280.0,8.0,19.44,40,0.0189,0.023104424448000004
+Evolved Transformer.v2 (Medium),Google Cloud,478.0,1.11,TPU v2,280.0,8.0,14.88,30,0.0143,0.017684868096000003

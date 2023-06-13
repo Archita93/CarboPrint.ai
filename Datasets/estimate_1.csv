@@ -1,0 +1,5 @@
+Model,Datacenter,Gamma,PUE,Processor,TDP_WATTS,chip_num,training_time,Energy(KWh),CO2(tonnes)
+Switch-Transformer,Google Cloud,403.0,1.1,TPU v3,450.0,1024.0,648.0,179000,72.2
+GPT-3,Microsoft Azure,429.0,1.1,V100,300.0,10000.0,355.2,1287000,552.1
+BLOOM,Google Cloud,378.0,1.2, A100 ,400.0,384.0,2832.0,"4,33,195",283
+WaveNet,Google Cloud,378.0,1.5,Quadro 2000,350.0,184.0,2304.0,1000000,25
