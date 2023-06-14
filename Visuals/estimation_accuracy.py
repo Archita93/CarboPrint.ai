@@ -32,7 +32,6 @@ def visual(data,num):
     # Plot using Matplotlib
     fig, ax = plt.subplots()
     estimate_plot = ready_data(data)
-    print(estimate_plot)
     # Set the x positions of the bars
     x = np.arange(len(estimate_plot['Model']))
 
@@ -52,13 +51,14 @@ def visual(data,num):
 
     # Add labels and title
     ax.set_xlabel('Models')
-    ax.set_ylabel('Carbon Dioxide Emissions (in tonnes)', rotation=90)
+    ax.set_ylabel('CO2 Emissions \n(in tonnes)', rotation=0)
     ax.set_title('Comparison between Actual and Estimated Quantities')
 
-   
-    plt.legend()
+
+    plt.legend(frameon=False)
     plt.tight_layout()
-    plt.savefig('accuracy_plot'+str(num)+'.png',dpi='figure',bbox_inches="tight")  # Save the graph as PNG image
+
+    plt.savefig('accuracy_plot'+str(num)+'.pdf',dpi='figure')  # Save the graph as PNG image
    
 
 visual(ed1,1)

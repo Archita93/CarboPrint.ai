@@ -12,10 +12,11 @@ def acc_visual(data):
     Y = list(df.iloc[:,1])
     plt.barh(X, Y, color='grey')
     plt.title("Major sources of Carbon Emissions in tonnes")
-    plt.xlabel("C02 Emissions (in tonnes)")
+    plt.xlabel("CO2 Emissions (in tonnes)")
     plt.ylabel("Sources")
+    # plt.legend(frameon=False)
     # Show the plot
-    plt.savefig('benchmark_emissions.png',dpi='figure',bbox_inches="tight")
+    plt.savefig('benchmark_emissions.pdf',dpi='figure',bbox_inches="tight")
 
 
 acc_visual(data)
