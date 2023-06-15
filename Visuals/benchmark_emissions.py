@@ -5,6 +5,8 @@ import os
 
 data = pd.read_csv('../Datasets/benchmark_emissions.csv')
 data = data.sort_values("CO2 Emissions (tonnes)").reset_index(drop="True")
+# data.to_csv('../Datasets/modified_benchmark_emissions.csv')
+# df.to_csv(filepath)  
 
 def acc_visual(data):
     df = pd.DataFrame(data)

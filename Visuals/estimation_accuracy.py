@@ -6,6 +6,8 @@ import numpy as np
 ed1 = pd.read_csv("../Datasets/estimate_1.csv")
 ed2 = pd.read_csv("../Datasets/estimate_2.csv")
 
+ed1 = ed1.sort_values("CO2(tonnes)").reset_index(drop="True")
+ed2 = ed2.sort_values("CO2(tonnes)").reset_index(drop="True")
 # ed = ed.dropna(how='all').transpose().reset_index()
 # estimate_data = ed.rename({'index':'Model',0:'Datacenter',1:'Gamma',2:'PUE',3:'Processor',4:'TDP_WATTS',5:'chip_num',6:'training_time',7:'Energy(KWh)',8:'CO2(tonnes)'}, axis='columns')
 # estimate_data.drop(estimate_data.index[0], inplace=True)
